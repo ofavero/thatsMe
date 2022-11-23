@@ -22,7 +22,7 @@ export const ProjectList = [
         name: "RandomDate",
         image: Img3,
         skills: "HTML, CSS, PHP, MySQL",
-        link: "Em Andamento"
+        link: "Concluído, porém não hospedado ainda"
     },
 
     {
