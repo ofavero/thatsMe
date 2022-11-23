@@ -26,12 +26,18 @@
   font-size: 40px;
   color: #57ff57;
   font-family: 'Nanum Gothic', sans-serif;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .project a {
   text-decoration: none;
   margin-left: 3px;
   color: #57ff57;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .project a:hover {
@@ -47,5 +53,8 @@
     font-size: 30px;
     color: #57ff57;
     font-family: 'Nanum Gothic', sans-serif;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
   }
 }
