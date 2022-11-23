@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');  
+
+.home h2{
+    width: 100%;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    color: #0B5AA2;
+    font-weight: 400;
+  }
+
+  .home span{
+    color: black;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #202224;
+    color: #f0f0f0;
+  }
+  
+  .about h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    color: #57ff57;
+    height: 50px;
+  }
+  
+  .about .prompt {
+    width: 40%;
+    font-size: 30px;
+  }
+
+  .about .prompt p{
+    font-family: 'Titillium Web', sans-serif;
+  }
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+  }
+  
+  .skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills h1 {
+    color: #0B5AA2;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+  }
+
+  .skills .list {
+    list-style: none;
+    width: 60%;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .list span {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }
