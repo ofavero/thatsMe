@@ -56,7 +56,7 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className='vertical-timeline-element-title'>Operador de Produção</h3>
-          <h4 className='vertical-timeline-element-subtitle'>Operador de Produção na GUardian Tatui</h4>
+          <h4 className='vertical-timeline-element-subtitle'>Operador de Produção na Guardian Tatui</h4>
           <p>Inpecionava embalagem, fazia abertura, montava pedido, acompanhava o carregamento do Jumbo, apertava grampos dos cominhões e fazia a montagem das embalagens.</p>
         </VerticalTimelineElement>
           
