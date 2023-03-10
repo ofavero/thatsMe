@@ -46,7 +46,7 @@ function Experience() {
         >
           <h3 className='vertical-timeline-element-title'>Auxiliar Administrativo</h3>
           <h4 className='vertical-timeline-element-subtitle'>Estoquista na Casas Bahia de Tatui</h4>
-          <p>Sou responsável por gerar notas fiscais, controle de materiais, separação de compras online, recebimento e entrega de materiais.</p>
+          <p>Era responsável por gerar notas fiscais, controle de materiais, separação de compras online, recebimento e entrega de materiais.</p>
         </VerticalTimelineElement>
 
          <VerticalTimelineElement
