@@ -48,6 +48,18 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'>Estoquista na Casas Bahia de Tatui</h4>
           <p>Sou responsável por gerar notas fiscais, controle de materiais, separação de compras online, recebimento e entrega de materiais.</p>
         </VerticalTimelineElement>
+
+         <VerticalTimelineElement
+          className='vertical-timeline-element--work'
+          date='09/01/2023 - 09/03/2023'
+          iconStyle={{ background: "#ffff57", color: "#202224" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className='vertical-timeline-element-title'>Operador de Produção</h3>
+          <h4 className='vertical-timeline-element-subtitle'>Operador de Produção na GUardian Tatui</h4>
+          <p>Inpecionava embalagem, fazia abertura, montava pedido, acompanhava o carregamento do Jumbo, apertava grampos dos cominhões e fazia a montagem das embalagens.</p>
+        </VerticalTimelineElement>
+          
       </VerticalTimeline>
     </div>
   )
