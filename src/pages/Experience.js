@@ -38,6 +38,18 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'>Intercambio de Ingles em Toronto - Canada</h4>
           <p>SGIC – St. George International College – ESL Level IV – Reading,Writing, Listening and Speaking – 4 weeks at 25 Hours per week – 17 June 2019 – 12 July 2019 </p>
         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className='vertical-timeline-element--education'
+          date='Jan de 2023 - Dez de 2025'
+          iconStyle={{ background: "#202224", color: "#57ff57" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className='vertical-timeline-element-title'>Comércio Exterior</h3>
+          <h4 className='vertical-timeline-element-subtitle'>Cursando Comércio Exterior Fatec Itapetininga</h4>
+          <p>Técnologo em Comércio Exterior - Duração de 6 semestres.</p>
+        </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
           date='Jan 2022 - Jan 2023'
