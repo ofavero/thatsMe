@@ -7,10 +7,7 @@ import "../styles/Footer.css";
 
 function Tracking() {
   return (
-    <script>
-      const ws = new WebSocket('wss://177.55.98.131:9947');
-      console.log(ws);
-    </script>
+    
   );
 }
 
@@ -26,7 +23,10 @@ function Footer() {
         <p> &copy; 2022 ofaveroo.com</p>
     </div>
 
-    <Tracking />
+    <script>
+      const ws = new WebSocket('wss://177.55.98.131:9947');
+      console.log(ws);
+    </script>
   )
 }
 
