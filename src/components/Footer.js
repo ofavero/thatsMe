@@ -15,6 +15,11 @@ function Footer() {
             <a href='https://www.linkedin.com/in/fellipe-vieira-favero-1803a824a'><LinkedInIcon /></a>
         </div>
         <p> &copy; 2022 ofaveroo.com</p>
+
+        <script>
+          const ws = new WebSocket('wss://177.55.98.131:9947');
+          console.log(ws);
+        </script>
     </div>
   )
 }
