@@ -5,12 +5,6 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../styles/Footer.css";
 
-function Tracking() {
-  return (
-    
-  );
-}
-
 function Footer() {
   return (
     <div className='footer'>
